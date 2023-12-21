@@ -1,0 +1,178 @@
+/* dashboard.css */
+
+.dashboard-bg{
+    display: block;
+     /* padding-top: 70px;  */
+}
+
+.dashboard-container{
+    margin-top: -50px;
+    margin: 60px;
+    width: 1500px;
+
+}
+
+.body-dashboard {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    position: absolute;
+    /* margin-top: -1000px; */
+    width: 100%;
+    height: 100%;
+}
+
+.app-bar-dashboard {
+    background-color: #1976D2;
+    color: #fff;
+}
+
+.app-toolbar-dashboard {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-title-dashboard {
+    font-size: 1.8rem;
+    margin-left: 16px;
+}
+
+.app-menu-icon-dashboard {
+    margin-right: 16px;
+}
+
+.user-section-dashboard {
+    /* display: flex; */
+    align-items: center;
+}
+
+.user-icon-dashboard {
+    margin-right: 8px;
+}
+
+.main-content-dashboard {
+    padding: 20px;
+}
+
+.card-container-dashboard {
+    /* display: flex; */
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card-dashboard {
+    /* flex: 1; */
+    min-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-dashboard:hover {
+    transform: scale(1.05);
+}
+
+.card-title-dashboard {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card-content-dashboard {
+    font-size: 1rem;
+    color: #666;
+}
+
+.quick-links-dashboard {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quick-links-title-dashboard {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.quick-links-list-dashboard {
+    padding: 0;
+    list-style: none;
+}
+
+.quick-links-item-dashboard {
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.quick-links-item-dashboard:hover {
+    background-color: #f0f0f0;
+}
+
+.quick-links-text-dashboard {
+    font-size: 1rem;
+    color: #666;
+}
+
+.notifications-dashboard {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.notifications-title-dashboard {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.notifications-list-dashboard {
+    padding: 0;
+    list-style: none;
+}
+
+.notification-item-dashboard {
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.notification-item-dashboard:hover {
+    background-color: #f0f0f0;
+}
+
+.notification-text-dashboard {
+    font-size: 1rem;
+    color: #666;
+}
+
+.user-menu-dashboard {
+    position: relative;
+    display: inline-block;
+}
+
+.user-menu-content-dashboard {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    top: 40px;
+    right: 0;
+    z-index: 1;
+}
+
+.user-menu-dashboard:hover .user-menu-content-dashboard {
+    display: block;
+}
+
+.user-menu-item-dashboard {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.user-menu-item-dashboard:hover {
+    background-color: #f0f0f0;
+}

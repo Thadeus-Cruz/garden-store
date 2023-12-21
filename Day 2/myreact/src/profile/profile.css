@@ -1,0 +1,229 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: 'Helvetica', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2, h4 {
+  font-family: 'Helvetica', sans-serif;
+}
+
+body {
+  background-image: url('stuff.png');
+  width: auto;
+  max-width: 100%;
+  font-family: 'Helvetica', sans-serif;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.top-box {
+  background-color: #0C0999DD;
+}
+
+.back-cover {
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.back-cover .top-cover {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+}
+
+.back-cover .top-cover {
+  padding: 10px;
+}
+
+.back-cover .top-cover .img-b {
+  padding: 20px;
+}
+
+.back-cover .top-cover .img-b img {
+  border-radius: 50%;
+  background-color: #FFF;
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin: auto;
+}
+
+.back-cover .top-cover .title-det {
+  padding: 20px;
+  color: #f7f7ff;
+  padding-left: 10px;
+  margin: auto;
+}
+
+.back-cover .top-cover {
+  text-align: center;
+}
+
+.profile-box {
+  padding: 0px;
+  height: 325px;
+}
+
+.tab-content {
+  background-color: rgba(110, 107, 117, 0.7);
+  backdrop-filter: blur(3px);
+  margin-bottom: 50px;
+}
+
+.home-det .i-img {
+  border-right: 1px solid #cccccc;
+  padding: 15px;
+  text-align: center;
+}
+
+.home-det .home-det1 {
+  padding: 25px;
+}
+
+.home-det .home-det1 {
+  max-width: 600px;
+  padding: 10px;
+}
+
+.home-det .home-det1 h3 {
+  font-size: 22px;
+}
+
+.home-det .home-det1 p {
+  text-indent: 20px;
+  font-size: 15px;
+}
+
+.home-det .home-det1 .links {
+  padding: 29px 0px;
+}
+
+.home-det .home-det1 .links .btn-link li {
+  float: left;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 1px solid #888;
+  margin-right: 10px;
+  color: #888;
+}
+
+.home-det .home-det1 .links .btn-link li {
+  margin-right: 5px !important;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.home-det .home-det1 .links .btn-link li i {
+  margin-top: 5px;
+}
+
+.home-det .home-det1 .links .btn-link li a {
+  color: #888;
+}
+
+.home-det .home-det1 .links .social-link {
+  float: right;
+}
+
+.home-det .home-det1 .links .social-link li {
+  float: right;
+  padding: 5px;
+  border: 1px solid #888;
+  border-radius: 50px;
+  width: 35px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.home-det .home-det1 .links .social-link li {
+  margin-right: 5px !important;
+  margin-top: 20px;
+}
+
+.home-det .home-det1 .links {
+  padding: 20px 0px;
+}
+
+.home-det .home-det1 .links .social-link {
+  margin-top: 20px;
+}
+
+.home-det .home-det1 .addrss-list {
+  width: 100%;
+}
+
+.home-det .home-det1 .addrss-list tr {
+  border-left: 1px solid #CCC;
+}
+
+.home-det .home-det1 .addrss-list tr td {
+  padding: 13px 10px;
+  border: 1px solid #CCC;
+}
+
+.home-det .home-det1 .addrss-list tr th {
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  padding: 13px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.l-title {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.r-title {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.edu-cov {
+  padding: 8px;
+}
+
+.edu-cov b {
+  font-size: 17px;
+}
+
+.edu-cov p {
+  font-size: 15px;
+}
+
+.hobby li {
+  float: left;
+  font-size: 15px;
+  padding: 15px;
+  text-align: center;
+  width: 33.33%;
+}
+
+.profess-cover {
+  padding: 20px;
+  margin-left: auto;
+}
+
+.profess-cover .prog-row {
+  width: 100%;
+  text-align: left;
+  padding: 8px 2px;
+  font-size: 15px;
+}
+
+.profess-cover .progress-bar {
+  background-color: #0062cc;
+}

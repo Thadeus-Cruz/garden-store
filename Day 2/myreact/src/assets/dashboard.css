@@ -1,0 +1,180 @@
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .MuiDrawer-paper {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+/* dashboard.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+  
+  .App-bar {
+    background-color: #1976D2;
+    color: #fff;
+  }
+  
+  .App-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .App-title {
+    font-size: 1.8rem;
+    margin-left: 16px;
+  }
+  
+  .App-menu-icon {
+    margin-right: 16px;
+  }
+  
+  .User-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .User-icon {
+    margin-right: 8px;
+  }
+  
+  .Main-content {
+    padding: 20px;
+  }
+  
+  .Card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .Card {
+    flex: 1;
+    min-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .Card:hover {
+    transform: scale(1.05);
+  }
+  
+  .Card-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .Card-content {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .Quick-links {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Quick-links-title {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .Quick-links-list {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .Quick-links-item {
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .Quick-links-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .Quick-links-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .Notifications {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Notifications-title {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .Notifications-list {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .Notification-item {
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .Notification-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .Notification-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Customize colors and other styles as needed */
+/* Add these styles to dashboard.css */
+
+.User-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .User-menu-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    top: 40px;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .User-menu:hover .User-menu-content {
+    display: block;
+  }
+  
+  .User-menu-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .User-menu-item:hover {
+    background-color: #f0f0f0;
+  }
+    

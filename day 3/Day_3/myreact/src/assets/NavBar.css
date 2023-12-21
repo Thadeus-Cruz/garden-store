@@ -1,0 +1,44 @@
+/* NavBar.css */
+
+/* Styles for AppBar and Toolbar */
+.app-bar-dashboard {
+    background-color: #1976D2; /* Adjust the background color as needed */
+  }
+  
+  .app-toolbar-dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .app-title-dashboard {
+    font-size: 1.8rem;
+    margin-left: 16px;
+    color: #fff; /* Text color for the title */
+  }
+  
+  /* Styles for User Section and Icon */
+  .user-section-dashboard {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-icon-dashboard {
+    margin-right: 16px;
+    color: #fff; /* Icon color */
+  }
+  
+  /* Styles for Menu and MenuItem */
+  #menu-appbar {
+    margin-top: 40px; /* Adjust the margin as needed */
+  }
+  
+  .menu-item-dashboard a {
+    text-decoration: none;
+    color: #333; /* Adjust the link color as needed */
+  }
+  
+  .menu-item-dashboard:hover {
+    background-color: #f0f0f0; /* Hover background color */
+  }
+  

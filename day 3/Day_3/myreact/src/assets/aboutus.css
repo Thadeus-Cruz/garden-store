@@ -1,0 +1,37 @@
+/* Container styles */
+.about-us-container {
+  max-width: 1000px;
+  margin: 5% auto;
+  padding: 3%;
+  background-color: rgba(0, 0, 0, 0.95); /* Darker background for better contrast */
+  color: #f8f8f8; /* Light shade of gray for text color */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Increased box shadow for depth */
+  position: relative;
+  width: 90%; /* Adjusted width for better responsiveness */
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smoother transition and box-shadow animation */
+  opacity: 0; /* Initially set opacity to 0 for fade-in effect */
+  animation: fadeIn 0.8s ease-in-out forwards; /* Fade-in animation */
+  max-height: 80vh; /* Set a maximum height for scrollability */
+  overflow-y: auto;
+}
+
+/* Content styles */
+.about-us-content {
+  text-align: justify;
+  font-size: 18px; /* Adjusted font size for better readability */
+  line-height: 1.6; /* Adjusted line height for better spacing */
+}
+
+h1, h2 {
+  color: #2aae2e;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Hover effect for a subtle change in background color on hover */
+.about-us-container:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5); /* Increased box shadow on hover */
+}

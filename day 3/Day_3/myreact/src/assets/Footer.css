@@ -1,0 +1,33 @@
+/* Footer.css */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  height: 350px; 
+  width: 100%; /* Set the width to 100% */
+  background-color: rgba(84, 255, 124, 0.877);
+  padding: 10px;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.contact-info,
+.important-pages {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+footera {
+  color: #3498db;
+  text-decoration: none;
+}
+
+footera:hover {
+  text-decoration: underline;
+}
